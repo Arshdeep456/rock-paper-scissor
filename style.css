@@ -40,7 +40,7 @@ img {
   margin-top: 5rem;
 }
 
-.score{
+.score-board {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,16 +49,16 @@ img {
   gap: 5rem;
 }
 
-#user,
-#computer {
+#user-score,
+#comp-score {
   font-size: 4rem;
 }
 
-.msg-contanier{
+.msg-container {
   margin-top: 5rem;
 }
 
-#move {
+#msg {
   background-color: #081b31;
   color: #fff;
   font-size: 2rem;
@@ -66,3 +66,4 @@ img {
   padding: 1rem;
   border-radius: 1rem;
 }
+
